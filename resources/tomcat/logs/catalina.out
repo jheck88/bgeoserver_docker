@@ -1,0 +1,218 @@
+22-Apr-2018 06:19:27.753 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.30
+22-Apr-2018 06:19:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2018 20:04:09 UTC
+22-Apr-2018 06:19:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.30.0
+22-Apr-2018 06:19:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Apr-2018 06:19:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-1052-aws
+22-Apr-2018 06:19:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-oracle/jre
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_171-b11
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Apr-2018 06:19:27.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Apr-2018 06:19:27.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+22-Apr-2018 06:19:27.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+22-Apr-2018 06:19:27.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+22-Apr-2018 06:19:27.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+22-Apr-2018 06:19:27.757 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+22-Apr-2018 06:19:27.886 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Apr-2018 06:19:27.895 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Apr-2018 06:19:27.900 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2018 06:19:27.901 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Apr-2018 06:19:27.902 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 500 ms
+22-Apr-2018 06:19:27.927 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+22-Apr-2018 06:19:27.927 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.30
+22-Apr-2018 06:19:27.958 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/opt/tomcat/webapps/geoserver.war]
+22-Apr-2018 06:19:33.148 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+22 Apr 06:19:33 INFO [geoserver.platform] - Falling back to embedded data directory: /opt/tomcat/webapps/geoserver/data
+22-Apr-2018 06:19:34.085 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'XStreamPersisterInitializer', but ApplicationContext is unset.
+22-Apr-2018 06:19:34.086 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+22-Apr-2018 06:19:34.088 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+22-Apr-2018 06:19:34.089 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+22 Apr 06:19:34 WARN [geoserver.logging] - log4jConfigFile 'DEFAULT_LOGGING.properties' couldn't be found in the data dir, so GeoServer will install the various logging config file into the data dir, and then try to find it again.
+log4j:WARN File option not set for appender [geoserverlogfile].
+log4j:WARN Are you using FileAppender instead of ConsoleAppender?
+22 Apr 06:19:36 INFO [geoserver.platform] - Falling back to embedded data directory: /opt/tomcat/webapps/geoserver/data
+22 Apr 06:19:36 INFO [geoserver.platform] - Falling back to embedded data directory: /opt/tomcat/webapps/geoserver/data
+22-Apr-2018 06:19:36.444 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'GeoServerSecurityProvider', but ApplicationContext is unset.
+22-Apr-2018 06:19:36.445 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+22-Apr-2018 06:19:36.445 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionProvider', but ApplicationContext is unset.
+22-Apr-2018 06:19:36.445 WARNING [localhost-startStop-1] org.geoserver.platform.GeoServerExtensions.checkContext Extension lookup 'ExtensionFilter', but ApplicationContext is unset.
+22 Apr 06:19:36 INFO [org.geoserver] - GeoServer configuration lock is enabled
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'simple_streams'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'capitals'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'line'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'burg'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'population'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'simple_roads'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'cite_lakes'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'tiger_roads'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'rain'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'polygon'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'restricted'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'dem'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'poi'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'generic'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'giant_polygon'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'grass'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'point'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'raster'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'green'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded style 'pophatch'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded default workspace cite
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'cite'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'nurc'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'tiger'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'topp'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'sf'
+22 Apr 06:19:36 INFO [org.geoserver] - Loaded workspace 'sde'
+22 Apr 06:19:37 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'mosaic'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'Pk50095'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'poi'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'states', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'states'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'sfdem'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded data store 'sf', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'bugsites'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'archsites'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'streams'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'roads'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer 'restricted'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer group 'tasmania'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded layer group 'spearfish'
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-43f9b5a9:162ec0207ad:-8000', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded service 'wfs', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded service 'wms', enabled
+22 Apr 06:19:38 INFO [org.geoserver] - Loaded service 'wcs', enabled
+22 Apr 06:19:38 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory '/opt/tomcat/webapps/geoserver/data/gwc'.
+22 Apr 06:19:38 WARN [config.GeoserverXMLResourceProvider] - Found no configuration file in config directory, will create one at 'gwc/geowebcache.xml' from template jar:file:/opt/tomcat/webapps/geoserver/WEB-INF/lib/gwc-core-1.13.0.jar!/geowebcache_empty.xml
+22 Apr 06:19:38 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+22 Apr 06:19:38 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+22 Apr 06:19:38 WARN [config.XMLConfiguration] - ********************************************************************************
+22 Apr 06:19:38 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: Cannot find the declaration of element 'gwcConfiguration'.
+22 Apr 06:19:38 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+22 Apr 06:19:38 WARN [config.XMLConfiguration] - ********************************************************************************
+22 Apr 06:19:38 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+22 Apr 06:19:38 INFO [config.XMLConfiguration] - Initializing layers from gwc
+22 Apr 06:19:39 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+22 Apr 06:19:39 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+22 Apr 06:19:39 INFO [gwc.layer] - Loading tile layers from gwc-layers
+22 Apr 06:19:39 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+22 Apr 06:19:39 INFO [storage.DefaultStorageFinder] - ***************************************************************************************
+22 Apr 06:19:39 INFO [storage.DefaultStorageFinder] - *** Reverting to java.io.tmpdir null for storage. Please set GEOWEBCACHE_CACHE_DIR. ***
+22 Apr 06:19:39 INFO [storage.DefaultStorageFinder] - ***************************************************************************************
+22 Apr 06:19:39 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+22 Apr 06:19:39 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory '/opt/tomcat/webapps/geoserver/data/gwc'.
+22 Apr 06:19:39 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory '/opt/tomcat/webapps/geoserver/data/gwc'.
+22 Apr 06:19:39 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+22 Apr 06:19:39 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+22 Apr 06:19:39 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+22 Apr 06:19:39 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+22 Apr 06:19:39 INFO [diskquota.DiskQuotaMonitor] - 22 layers attached to global quota 500.0 MB
+22 Apr 06:19:39 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+22 Apr 06:19:40 INFO [ows.OWSHandlerMapping] - Mapped URL path [/gwc/service/**] onto handler 'dispatcher'
+22 Apr 06:19:40 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+22 Apr 06:19:40 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+22 Apr 06:19:40 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+22 Apr 06:19:40 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+22 Apr 06:19:40 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+22 Apr 06:19:40 INFO [geoserver.platform] - Falling back to embedded data directory: /opt/tomcat/webapps/geoserver/data
+22 Apr 06:19:40 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows/**] onto handler 'dispatcher'
+22 Apr 06:19:40 INFO [ows.OWSHandlerMapping] - Mapped URL path [/ows] onto handler 'dispatcher'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml] onto handler 'dispatcher'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/*] onto handler 'dispatcher'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/kml/icon/**/*] onto handler 'kmlIconService'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/TestWfsPost] onto handler 'wfsTestServlet'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs/*] onto handler 'dispatcher'
+22 Apr 06:19:42 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wfs] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wms/*] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate/*] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/animate] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs] onto handler 'dispatcher'
+22 Apr 06:19:45 INFO [ows.OWSHandlerMapping] - Mapped URL path [/wcs/*] onto handler 'dispatcher'
+22 Apr 06:19:47 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+22 Apr 06:19:47 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+22 Apr 06:19:47 INFO [geoserver.security] - Start reloading user/groups for service named default
+22 Apr 06:19:47 INFO [geoserver.security] - Reloading user/groups successful for service named default
+22-Apr-2018 06:19:47.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/opt/tomcat/webapps/geoserver.war] has finished in [19,834] ms
+22-Apr-2018 06:19:47.795 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/ROOT]
+22-Apr-2018 06:19:47.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/ROOT] has finished in [9] ms
+22-Apr-2018 06:19:47.804 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/manager]
+22-Apr-2018 06:19:47.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/manager] has finished in [18] ms
+22-Apr-2018 06:19:47.822 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/host-manager]
+22-Apr-2018 06:19:47.832 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/host-manager] has finished in [10] ms
+22-Apr-2018 06:19:47.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/docs]
+22-Apr-2018 06:19:47.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/docs] has finished in [7] ms
+22-Apr-2018 06:19:47.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/opt/tomcat/webapps/examples]
+22-Apr-2018 06:19:47.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/opt/tomcat/webapps/examples] has finished in [120] ms
+22-Apr-2018 06:19:47.971 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+22-Apr-2018 06:19:47.990 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+22-Apr-2018 06:19:47.995 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 20093 ms
+22 Apr 06:20:11 WARN [geoserver.web] - Unable to find property: 'format.wms.application/vnd.google-earth.kml' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+22 Apr 06:20:11 WARN [geoserver.web] - Unable to find property: 'format.wms.rss' for component:  [class=org.geoserver.web.demo.MapPreviewPage]. Locale: null, style: null
+22 Apr 06:20:35 INFO [geoserver.wcs] - 
+Request: getServiceInfo
+22 Apr 06:20:36 INFO [geoserver.wcs] - 
+Request: getCoverage
+    sourceCoverage = nurc:Arc_Sample
+    domainSubset:
+        spatialSubset:
+            envelope[0] = GeneralEnvelope[(-180.0, -90.0), (180.0, 90.0)]
+            gridGroup[0] = wcs:grid=net.opengis.gml.impl.RectifiedGridTypeImpl@337e821e (srsName: null) (limits: GridEnvelope2D[0..719, 0..359], axisName: [x, y], dimension: 2)
+            grid[0]:
+                limits = GridEnvelope2D[0..719, 0..359]
+                axisName[0] = xaxisName[0] = y
+                dimension = 2
+    interpolationMethod = nearest neighbor
+    output:
+        crs:
+            value = EPSG:4326
+        format:
+            value = GeoTIFF
+    service = WCS
+    version = 1.0.0
+    baseUrl = http://ec2-35-169-137-248.compute-1.amazonaws.com:8080/geoserver/
+22 Apr 06:26:40 WARN [servlet.PageNotFound] - No mapping found for HTTP request with URI [/geoserver/admin] in DispatcherServlet with name 'dispatcher'
